@@ -20,14 +20,14 @@ export default function NewItem() {
         <button
           onClick={decrement}
           disabled={quantity === 1}
-          className="px-4 py-2 bg-gray-300 rounded disabled:opacity-50"
+          className="px-4 py-2 bg-red-500 rounded disabled:opacity-50"
         >
           Decrement
         </button>
         <button
           onClick={increment}
           disabled={quantity === 20}
-          className="px-4 py-2 bg-gray-300 rounded disabled:opacity-50"
+          className="px-4 py-2 bg-blue-300 rounded disabled:opacity-50"
         >
           Increment
         </button>
