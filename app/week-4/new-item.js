@@ -14,8 +14,8 @@ export default function NewItem() {
   };
 
   return (
-    <div className="flex flex-col items-center">
-      <div className="text-2xl mb-4">Quantity: {quantity}</div>
+    <div className="flex flex-col items-center bg-white p-4 shadow rounded w-1/2 mx-auto">
+      <div className="text-2xl mb-4 text-black">Quantity: {quantity}</div>
       <div className="flex space-x-4">
         <button
           onClick={decrement}
