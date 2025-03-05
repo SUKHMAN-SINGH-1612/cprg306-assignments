@@ -5,7 +5,7 @@ import { v4 as uuidv4 } from 'uuid';
 
 function NewItem({ onAddItem }) {
   const [name, setName] = useState("");
-  const [category, setCategory] = useState("");
+  const [category, setCategory] = useState("produce"); // Set default value
   const [quantity, setQuantity] = useState(1);
 
   const handleSubmit = (e) => {
@@ -18,7 +18,7 @@ function NewItem({ onAddItem }) {
     };
     onAddItem(newItem);
     setName("");
-    setCategory("");
+    setCategory("produce"); // Reset to default value
     setQuantity(1);
   };
 
