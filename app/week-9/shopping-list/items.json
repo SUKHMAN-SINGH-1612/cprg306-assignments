@@ -1,24 +1,21 @@
 [
   {
-    "id": "1h2GJKH12gkHG31h1H",
-    "name": "milk, 4 L",
+    "id": "1",
+    "name": "milk, 4 L 🥛",
     "quantity": 1,
-    "category": "dairy",
-    "emoji": "🥛"
+    "category": "dairy"
   },
   {
-    "id": "2KJH3k2j3H1k2J3K1H",
+    "id": "2",
     "name": "bread",
     "quantity": 2,
-    "category": "bakery",
-    "emoji": "🍞"
+    "category": "bakery"
   },
   {
-    "id": "3h2KJH3k2j3H1k2J3",
-    "name": "eggs, dozen",
+    "id": "3",
+    "name": "eggs, dozen 🥚",
     "quantity": 2,
-    "category": "dairy",
-    "emoji": "🥚"
+    "category": "dairy"
   },
   {
     "id": "4k2J3K1H2GJKH12gk",
